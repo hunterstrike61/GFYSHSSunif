@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en-ph">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syne">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Home Page</title>
+  <style>
+    html {
+      height: 450%;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Syne', sans-serif;
+      background: rgb(128, 128, 128);
+    }
+
+    .header {
+      text-align: center;
+      padding: 10px;
+      color: white;
+    }
+
+    .button-container {
+      text-align: center;
+      margin-top: -30px;
+    }
+
+    .button {
+      background-color: none;
+      border: 2px solid black;
+      color: black;
+      font-weight: bold;
+      padding: 8px 15px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: inline-block;
+      margin: 5px;
+      font-size: 12px;
+    }
+
+    .responsive-image {
+      max-width: 100%;
+      height: auto;
+      margin: 50px; /* Added spacing */
+      max-height: 150px; /* Adjusted maximum height */
+    }
+
+    .content-container {
+      text-align: center;
+      margin: 10px;
+    }
+
+    .disclaimer {
+      color: white;
+      text-align: center;
+      font-size: 12px;
+      width: 90vw;
+      margin: 10px auto;
+      padding: 10px;
+    }
+
+    .footer {
+      text-align: right;
+      padding: 10px;
+      position: relative;
+      bottom: 2440px;
+    }
+
+    .main-button {
+     text-align: center;
+     position: relative;
+     bottom: 70px;
+    }
+   
+    .button-bottom {
+      position: absolute;
+      bottom: 75%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .image-container {
+      text-align: center;
+      margin: 10px 0;
+      position: relative;
+      display: inline-block;
+      width: 48%; /* Adjusted width for two images per row */
+    }
+
+@media only screen and (max-width: 400px){
+    .button-bottom {
+      bottom: 65%;
+      left: 53%;
+      margin: 30px;
+    }
+   
+    .image-container {
+     position: relative;
+     left: 25px;
+    }
+
+    .footer {
+      position: relative;
+      bottom: 2430px;
+    }
+    
+    .main-button {
+     text-align: center;
+     position: relative;
+     bottom: 70px;
+     right: -50px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .button-bottom {
+      bottom: 65%;
+      left: 50%;
+      margin: 30px;
+    }
+   
+    .image-container {
+     position: relative;
+     left: 30px;
+    }
+
+    .footer {
+      position: relative;
+      bottom: 2430px;
+    }
+    
+    .main-button {
+     text-align: center;
+     position: relative;
+     bottom: 70px;
+     right: -50px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .button-bottom {
+      bottom: 65%;
+      left: 53%;
+      margin: 30px;
+    }
+   
+    .image-container {
+     position: relative;
+     left: 25px;
+    }
+
+    .footer {
+      position: relative;
+      bottom: 2300px;
+    }
+    
+    .main-button {
+     text-align: center;
+     position: relative;
+     bottom: 70px;
+     right: -50px;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    .button-bottom {
+      bottom: 65%;
+      left: 53%;
+      margin: 30px;
+    }
+   
+    .image-container {
+     position: relative;
+     left: 25px;
+    }
+
+    .footer {
+      position: relative;
+      bottom: 2460px;
+      left: 50px;
+    }
+    
+    .main-button {
+     text-align: center;
+     position: relative;
+     bottom: 70px;
+     right: -50px;
+    }
+}
+
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <p><img src=".\img\image-removebg-preview (2).png" width="50" height="50">STEMATICS COMPANY</p>
+    <hr>
+  </div>
+
+  <div class="button-container">
+    <img class="responsive-image" src=".\img\Screenshot 2023-12-04 215723.png" width="800" heigth="600" alt="Main Image">
+   <div class="main-button">
+      <a href="./homepage.html" class="button">HOME</a> <a href="./about.html" class="button">ABOUT</a>      <a href="./services.html" class="button">SERVICES</a> <a href=".\contact.html" class="button">CONTACT</a>
+    </div>
+  </div>
+
+  <!-- Image 1 -->
+  <div class="image-container">
+    <img class="responsive-image" src=".\img\405485509_686260596936428_7617233875319823630_n.jpg" width="150" alt="Image 1">
+    <div class="button-container button-bottom">
+      <a href=".\Male polo.html" class="button">MALE UNIFORM</a>
+    </div>
+  </div>
+
+  <!-- Image 2 -->
+  <div class="image-container">
+    <img class="responsive-image" src=".\img\401002633_1310688006265102_144868124390187542_n.jpg" width="150"alt="Image 2">
+    <div class="button-container button-bottom">
+      <a href=".\male-pants.html" class="button">MALE UNIFORM (PANTS)</a>
+    </div>
+  </div>
+
+  <!-- Image 3 -->
+  <div class="image-container">
+    <img class="responsive-image" src=".\img\401097789_4406962116195957_8014662135436953568_n.jpg" width="150"alt="Image 3">
+    <div class="button-container button-bottom">
+      <a href=".\male-vest.html" class="button">MALE VEST</a>
+    </div>
+  </div>
+
+  <!-- Image 4 -->
+  <div class="image-container">
+    <img class="responsive-image" src="C:\Users\KIRA\Desktop\web\img\385540790_1407801263488721_7656517886075834479_n.jpg" width="150"alt="Image 4">
+    <div class="button-container button-bottom">
+      <a href=".\female-polo.html" class="button">FEMALE UNIFORM</a>
+    </div>
+  </div>
+
+  <!-- Image 5 -->
+  <div class="image-container">
+    <img class="responsive-image" src=".\img\405543810_1399856594299497_6427027021102546731_n.jpg" width="150"alt="Image 5">
+    <div class="button-container button-bottom">
+      <a href=".\female-skirt.html" class="button">FEMALE SKIRT</a>
+    </div>
+  </div>
+
+  <!-- Image 6 -->
+  <div class="image-container">
+    <img class="responsive-image" src=".\img\400926221_1006795417082244_8412529896545099358_n.jpg" width="150"alt="Image 6">
+    <div class="button-container button-bottom">
+      <a href=".\female-vest.html" class="button">FEMALE VEST</a>
+    </div>
+  </div>
+
+  <!-- Image 7 -->
+  <div class="image-container">
+    <img class="responsive-image" src=".\img\405564876_673811288271150_7551941243354189542_n.jpg" width="150"alt="Image 7">
+    <div class="button-container button-bottom">
+      <a href=".\female-pants.html" class="button">FEMALE PANTS</a>
+    </div>
+  </div>
+
+  <!-- Image 8 -->
+  <div class="image-container">
+    <img class="responsive-image" src=".\img\370300117_239535682317626_1419911143320094204_n.jpg" width="150"alt="Image 8">
+    <div class="button-container button-bottom">
+      <a href=".\male-full-set.html" class="button">MALE (FULL UNIFORM)</a>
+    </div>
+  </div>
+
+  <!-- Image 9 -->
+  <div class="image-container">
+    <img class="responsive-image" src=".\img\400920110_288554790844436_3051265668842128554_n.jpg" width="150"alt="Image 9">
+    <div class="button-container button-bottom">
+      <a href=".\female-full-set-skirt.html" class="button">FEMALE (FULL UNIFORM SKIRT)</a>
+    </div>
+  </div>
+
+  <!-- Image 10 -->
+  <div class="image-container">
+    <img class="responsive-image" src=".\img\386883298_296425252730343_2582765279095605_n.jpg" width="150"alt="Image 10">
+    <div class="button-container button-bottom">
+      <a href=".\female full set pants.html" class="button">FEMALE (FULL UNIFORM PANTS)</a>
+    </div>
+  </div>
+
+  <!-- Image 11 -->
+  <div class="image-container">
+    <img class="responsive-image" src=".\img\405444688_1739426396570970_2197010594801128158_n.jpg" width="150"alt="Image 11">
+    <div class="button-container button-bottom">
+      <a href=".\pe fullset.html" class="button">P.E. (FULL SET)</a>
+    </div>
+  </div>
+
+  <!-- Image 12 -->
+  <div class="image-container">
+    <img class="responsive-image" src=".\img\405518473_283221331387159_91181226552881600_n.jpg" width="150"alt="Image 12">
+    <div class="button-container button-bottom">
+      <a href=".\landyard.html" class="button">LAND YARD</a>
+    </div>
+  </div>
+
+  <!-- Image 13 -->
+  <div class="image-container">
+    <img class="responsive-image" src=".\img\405996184_635661645236473_6294114837104935053_n-PhotoRoom.png-PhotoRoom.png" width="150" alt="Image 13">
+    <div class="button-container button-bottom">
+      <a href=".\patches.html" class="button">PATCHES</a>
+    </div>
+  </div>
+
+  <!-- Disclaimer -->
+  <div class="disclaimer">
+    <pre>Disclaimer: Our website only lets you have an access 
+      to our school's uniform availabilities, this website
+      isn't an online shop for our school uniforms if, you'd 
+      like to purchase these products please visit our school. 
+      Thank you.</pre>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <img src=".\img\364100059_332338785890962_3456254283614764129_n-removebg-preview.png" width="70" height="70">
+  </div>
+</body>
+
+</html>
